@@ -12,7 +12,7 @@
 <body>
 
   <main class="container">
-    <div class="row">
+    <div class="row align-items-center">
       <div class="col-6 add-padding">
         <h1>Learn to code by watching others</h1>
         <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
@@ -25,33 +25,33 @@
           </div>
         </div>
         <div class="card">
-          <div class="card-body">
-            <form class="" action="index.html" method="post">
-              <div class="form-group">
-                <input type="text" class="form-control" name="fname" value="" placeholder="First Name">
-                <small id="fname-warning" class="form-text">First name can not be empty</small>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="lname" value="" placeholder="Last Name">
-                <small id="lname-warning" class="form-text">Last name can not be empty</small>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="email" value="" placeholder="Email Address">
-                <small id="email-warning" class="form-text">Email can not be empty</small>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="password" value="" placeholder="Password">
-                <small id="password-warning" class="form-text">Password can not be empty</small>
-              </div>
-              <button type="button" class="btn btn-lg btn-block" name="button">Claim your free trial</button>
-              <p class="agreement">By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
-            </form>
+            <div class="card-body">
+              <form class="" action="index.html" method="post">
+                <div class="form-group">
+                  <input type="text" class="form-control form-control-lg" name="fname" value="" placeholder="First Name">
+                  <img src="images/icon-error.svg" alt="" class="error-icon" id="fname-warning-icon">
+                  <small id="fname-warning" class="form-text">First name can not be empty</small>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control form-control-lg" name="lname" value="" placeholder="Last Name">
+                  <img src="images/icon-error.svg" alt="" class="error-icon" id="lname-warning-icon">
+                  <small id="lname-warning" class="form-text">Last name can not be empty</small>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control form-control-lg" name="email" value="" placeholder="Email Address">
+                  <img src="images/icon-error.svg" alt="" class="error-icon" id="email-warning-icon">
+                  <small id="email-warning" class="form-text">Email can not be empty</small>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control form-control-lg" name="password" value="" placeholder="Password">
+                  <img src="images/icon-error.svg" alt="" class="error-icon" id="password-warning-icon">
+                  <small id="password-warning" class="form-text">Password can not be empty</small>
+                </div>
+                <button type="button" class="btn btn-lg btn-block shadow" name="button">Claim your free trial</button>
+                <p class="agreement">By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+              </form>
+            </div>
           </div>
-        </div>
-
-
-
-
       </div>
     </div>
   </main>

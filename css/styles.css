@@ -6,6 +6,7 @@ body {
   background-color: hsl(0, 100%, 74%);
 }
 
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -66,7 +67,7 @@ a, a:hover {
   color: white;
   text-align: center;
   padding: 15px 0;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   margin-top: 20%;
 }
 
@@ -75,4 +76,25 @@ a, a:hover {
   font-size: 12px;
   color: #ff7a7a;
   color: hsl(0, 100%, 74%);
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.add-padding-left-right {
+  padding: 0 50px 0 20px;
+}
+
+.form-group {
+  position: relative;
+}
+.error-icon {
+  position: absolute;
+  right: 25px;
+  top: 12px;
+}
+
+.col-6 {
+  height: 100%;
 }
