@@ -6,26 +6,6 @@ body {
   background-color: hsl(0, 100%, 74%);
 }
 
-.container {
-  height: 100vh;
-}
-
-.row {
-  height: 100vh;
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-  margin: auto;
-  padding: 30px 0;
-}
-
-.attribution a {
-  color: #3A4C98;
-  color: hsl(228, 45%, 44%);
-}
-
 h1 {
   color: white;
   font-size: 2.6rem;
@@ -40,6 +20,36 @@ p {
 a, a:hover {
   color: #ff7a7a;
   color: hsl(0, 100%, 74%);
+}
+
+.container {
+  height: 100vh;
+}
+
+.row {
+  height: 100vh;
+}
+
+.col-6 {
+  height: 100%;
+}
+
+.add-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin: auto;
+  padding: 30px 0;
+}
+
+.attribution a {
+  color: #3A4C98;
+  color: hsl(228, 45%, 44%);
 }
 
 .agreement {
@@ -60,20 +70,10 @@ a, a:hover {
   box-shadow: 0 4px #3EB27F;
 }
 
-.add-box-shadow {
-  box-shadow: 0 4px #D86665;
-}
-
 .btn:hover {
   background-color: #38cc8c;
   background-color: hsla(154, 59%, 51%, 50%);
   color: white;
-}
-
-.add-flex {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .add-padding {
@@ -86,10 +86,7 @@ a, a:hover {
   color: white;
   text-align: center;
   padding: 15px 0;
-  margin-bottom: 20px;
-  margin-top: 15px;
-  margin-right: 65px;
-  margin-left: 5px;
+  margin: 15px 65px 20px 5px;
   border-radius: 10px;
   box-shadow: 0 8px #D86665;
 }
@@ -125,6 +122,8 @@ a, a:hover {
   top: 12px;
 }
 
-.col-6 {
-  height: 100%;
+
+@media (min-width: 576px) {
+
+
 }
