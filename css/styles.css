@@ -69,7 +69,8 @@ a, a:hover {
 }
 
 .add-padding {
-  padding: 25px 40px 0 95px;
+  padding: 50px auto 0 auto;
+  text-align: center;
 }
 
 .top-card {
@@ -78,13 +79,13 @@ a, a:hover {
   color: white;
   text-align: center;
   padding: 15px 0;
-  margin: 15px 65px 20px 5px;
+  margin: 15px 5px 20px 5px;
   border-radius: 10px;
   box-shadow: 0 8px #D86665;
 }
 
 .bottom-card {
-  margin-right: 65px;
+  margin-right: 5px;
   margin-left: 5px;
   border-radius: 10px;
   box-shadow: 0 8px #D86665;
@@ -110,10 +111,6 @@ a, a:hover {
   padding: 30px;
 }
 
-.add-padding-left-right {
-  padding: 0 50px 0 20px;
-}
-
 .form-group {
   position: relative;
 }
@@ -124,4 +121,30 @@ a, a:hover {
   top: 12px;
 }
 
-@media (min-width: 576px) {}
+
+@media (min-width: 768px) {
+  .add-padding {
+    padding: 25px 40px 0 30px;
+    text-align: left;
+  }
+  .top-card {
+    margin: 15px 0px 20px 5px;
+  }
+  .bottom-card {
+    margin-right: 0px;
+    margin-left: 5px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .add-padding {
+    padding: 25px 40px 0 95px;
+  }
+  .top-card {
+    margin: 15px 65px 20px 5px;
+  }
+  .bottom-card {
+    margin-right: 65px;
+    margin-left: 5px;
+  }
+}
