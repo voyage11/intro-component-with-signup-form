@@ -28,28 +28,24 @@
         </div>
         <div class="card bottom-card">
           <div class="card-body">
-            <form class="" action="index.html" method="post">
+            <form class="needs-validation" action="index.html" method="post" novalidate>
               <div class="form-group">
-                <input type="text" class="form-control form-control-lg" name="fname" value="" placeholder="First Name">
-                <img src="images/icon-error.svg" alt="" class="error-icon" id="fname-warning-icon">
-                <small id="fname-warning" class="form-text">First name can not be empty</small>
+                <input type="text" id="fname" class="form-control form-control-lg" name="fname" placeholder="First Name" required>
+                <small id="fname-warning" class="invalid-feedback">First name can not be empty</small>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control form-control-lg" name="lname" value="" placeholder="Last Name">
-                <img src="images/icon-error.svg" alt="" class="error-icon" id="lname-warning-icon">
-                <small id="lname-warning" class="form-text">Last name can not be empty</small>
+                <input type="text" id="lname" class="form-control form-control-lg" name="lname" value="" placeholder="Last Name" required>
+                <small id="lname-warning" class="invalid-feedback">Last name can not be empty</small>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control form-control-lg" name="email" value="" placeholder="Email Address">
-                <img src="images/icon-error.svg" alt="" class="error-icon" id="email-warning-icon">
-                <small id="email-warning" class="form-text">Email can not be empty</small>
+                <input type="text" id="email" class="form-control form-control-lg" name="email" value="" placeholder="Email Address" required>
+                <small id="email-warning" class="invalid-feedback">Email can not be empty</small>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control form-control-lg" name="password" value="" placeholder="Password">
-                <img src="images/icon-error.svg" alt="" class="error-icon" id="password-warning-icon">
-                <small id="password-warning" class="form-text">Password can not be empty</small>
+                <input type="text" id="password" class="form-control form-control-lg" name="password" value="" placeholder="Password" required>
+                <small id="password-warning" class="invalid-feedback">Password can not be empty</small>
               </div>
-              <button type="button" class="btn btn-lg btn-block" name="button">Claim your free trial</button>
+              <button type="submit" class="btn btn-lg btn-block" name="button">Claim your free trial</button>
               <p class="agreement">
                 By clicking the button, you are agreeing to our <a href="#">Terms and Services</a>
               </p>
@@ -64,7 +60,10 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="https://github.com/voyage11/">Ricky Chea</a>.
   </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <script src="js/main.js?v=1.0"></script>
 </body>
 
