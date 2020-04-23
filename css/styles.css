@@ -11,6 +11,7 @@ h1 {
   font-size: 2.6rem;
   font-weight: 700;
   margin-bottom: 30px;
+  margin-top: 70px;
 }
 
 p {
@@ -23,11 +24,21 @@ a, a:hover {
 }
 
 .container {
-  height: 100vh;
+  height: 100%;
 }
 
 .row {
-  height: 100vh;
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+  .container {
+    height: 100vh;
+  }
+
+  .row {
+    height: 100vh;
+  }
 }
 
 .col-6 {
@@ -79,7 +90,7 @@ a, a:hover {
   color: white;
   text-align: center;
   padding: 15px 0;
-  margin: 15px 5px 20px 5px;
+  margin: 50px 5px 20px 5px;
   border-radius: 10px;
   box-shadow: 0 8px #D86665;
 }
@@ -87,6 +98,7 @@ a, a:hover {
 .bottom-card {
   margin-right: 5px;
   margin-left: 5px;
+  margin-bottom: 100px;
   border-radius: 10px;
   box-shadow: 0 8px #D86665;
 }
@@ -128,11 +140,12 @@ a, a:hover {
     text-align: left;
   }
   .top-card {
-    margin: 15px 0px 20px 5px;
+    margin: 15px 5px 20px 5px;
   }
   .bottom-card {
     margin-right: 0px;
     margin-left: 5px;
+    margin-bottom: 0;
   }
 }
 
