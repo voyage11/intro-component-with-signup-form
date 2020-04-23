@@ -1,11 +1,18 @@
 body {
   font-family: 'Poppins', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   background-image: url("../images/bg-intro-desktop.png");
   background-color: #ff7a7a;
   background-color: hsl(0, 100%, 74%);
 }
 
+.container {
+  height: 100vh;
+}
+
+.row {
+  height: 100vh;
+}
 
 .attribution {
   font-size: 11px;
@@ -57,8 +64,14 @@ a, a:hover {
   color: white;
 }
 
+.add-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .add-padding {
-  padding: 30px 50px;
+  padding: 35px 45px 0 90px;
 }
 
 .top-card {
@@ -68,7 +81,6 @@ a, a:hover {
   text-align: center;
   padding: 15px 0;
   margin-bottom: 20px;
-  margin-top: 20%;
 }
 
 .form-text {
